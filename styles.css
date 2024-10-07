@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --font-principal: 'Inter';
+    --font-click: #ad84b3;
 }
 
 * {
@@ -48,7 +49,7 @@ body {
 }
 
 .container__botao:active {
-    background-color: var(--branco-principal);
+    background-color: var(--font-click);
 }
 
 .botao_secundario {
@@ -150,7 +151,7 @@ body {
 }
 
 .lista__link a:active {
-    color: var(--botao-azul);
+    color: var(--font-click);
 }
 
 .rodape__texto{
